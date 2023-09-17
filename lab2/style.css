@@ -1,0 +1,84 @@
+/* html */
+body {
+    background-color: white;
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    vertical-align: bottom;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+/* bottuns style */
+input[type="submit"] {
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.3);
+}
+
+/*******************************
+    To do Prototype pgae
+*******************************/
+
+/* content styles */
+.container-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: 350px;
+    background-color: azure;
+    box-shadow: 4px 6px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+/* Div styles */
+.container-1 div {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Input text field styles */
+.container-1 input[type="text"], 
+.container-1 input[type="password"] {
+    width: 200px;
+}
+
+
+/*******************************
+            To do pgae
+*******************************/
+
+.container-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: 400px;
+}
+.container-2 div {
+    background-color: azure;
+    box-shadow: 4px 6px 10px rgba(0, 0, 0, 0.5);
+
+    margin: 20px 0;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* Input text field styles */
+.container-2 input[type="text"], 
+.container-2 input[type="password"] {
+    width: 250px;
+}
+
+#claim-1, #claim-3 {
+    text-decoration: line-through;
+}
+
+/* detailsForm */
+.detailsForm {
+    width: 90%;
+    margin: 40px auto;
+}

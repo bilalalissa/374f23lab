@@ -1,0 +1,86 @@
+<!-- HTML-only version of the application -->
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Todo List</title>
+
+  <head>
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>To do</h1>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <div class="container-2">
+
+      <!-- Logout buttun Form-->
+      <div class="logoutForm">
+
+        <a href="#">
+          <img id="gearIcon" src="gear.png" height="15">
+          Logged in as USER@email.org
+        </a>
+        <form>
+          <input type="submit" value="Log Out">
+        </form>
+      </div>
+      </div>
+
+      <div class="container-2">
+
+        <div class="detailsForm">
+
+          <!-- Abandon Form -->
+          <form>
+            <input type="checkbox" id="myCheckbox" name="myCheckbox"><br><br>
+            <input type="text" id="abandon" name="abandon" placeholder="This is a task claimed by someone">
+            <br>
+            <input type="submit" value="Abandon">
+          </form>
+
+          <!-- Claim Form -->
+          <form>
+            <input type="checkbox" id="myCheckedCheckbox" name="myCheckedCheckbox" checked><br><br>
+            <input type="text" id="claim-1" name="claim-1" placeholder="This is a task claimed and complete">
+            <br>
+            <input type="text" id="claim-2" name="claim-2" placeholder="This is a task claimed by my">
+            <br>
+            <input type="text" id="claim-3" name="claim-3" placeholder="This is a task claimed  and complete">
+            <br>
+            <input type="text" id="claim-4" name="claim-4" placeholder="This is an uncomplete task">
+            <br>
+            <input type="submit" value="Claim">
+          </form>
+
+          <!-- Add Form -->
+          <form>
+            <input type="text" id="add" name="add" placeholder="Enter a new task here">
+            <br>
+            <input type="submit" value="Add">
+          </form>
+
+          <!-- Remove Complete Form -->
+          <form>
+            <input type="submit" value="Remove Complete">
+          </form>
+        </div>
+      </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <!-- <p>Copyright 2023</p> -->
+  </footer>
+</body>
+
+</html>
