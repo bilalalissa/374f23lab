@@ -1,0 +1,133 @@
+/* html */
+body {
+    background-color: white;
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    vertical-align: bottom;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 50px;
+    margin-bottom: 30px;
+
+}
+
+/*******************************
+    To do Prototype pgae
+*******************************/
+
+/* content styles */
+.container-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: 350px;
+    background-color: azure;
+    box-shadow: 3px 4px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* Div styles */
+.container-1 div {
+    text-align: center;
+}
+
+/* Input text field styles */
+.container-1 input[type="text"], 
+.container-1 input[type="password"] {
+    width: 250px;
+}
+
+.container-1 input:focus {
+    background-color: rgb(250, 244, 199);
+}
+
+.accordion {
+    width: 100%;
+}
+
+.container-1 h1 {
+    font-size: x-large;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.container-1 input[type="submit"] {
+
+    margin-top: 10px;
+}
+
+
+/*******************************
+            To do pgae
+*******************************/
+
+.container-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: 600px;
+
+}
+
+/* Input text field styles */
+.container-2 input[type="text"], 
+.container-2 input[type="password"] {
+    color: rgba(128, 128, 128, 0.806);
+}
+
+input[name="type-1"] {
+    background-color: rgb(247, 247, 247);
+}
+input[name="type-2"] {
+    text-decoration: line-through;
+    background-color: rgb(247, 247, 247);
+}
+
+input[name="type-3"] {
+    background-color: white;
+}
+
+.logoutForm {
+    text-align: center;
+
+    background-color: rgb(235, 248, 248);
+    width: 350px auto;
+    box-shadow: 3px 4px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+    margin: 30px;
+    padding-top: 10px;
+}
+.logoutForm a {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.logoutForm-sub {
+    text-align: center;
+    border-top: solid rgb(227, 227, 227) 1px;
+
+    background-color: white;
+    width: 100%;
+    margin-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* detailsForm */
+.detailsForm {
+    background-color: rgb(235, 248, 248);
+    text-align: center;
+    margin: 20px 0;
+    padding: 10px 10px;
+    width: 100%;
+    box-shadow: 3px 4px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+
+}

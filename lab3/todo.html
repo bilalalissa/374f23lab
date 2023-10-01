@@ -1,0 +1,108 @@
+<!-- HTML-only version of the application -->
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Todo List</title>
+  <link rel="stylesheet" href="css/style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+  <title>Bootstrap Example</title>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body class="p-3 m-0 border-0 bd-example m-0 border-0">
+
+  <!-- Header -->
+  <header>
+    <h1>To do</h1>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <div class="container-2">
+
+      <!-- Logout buttun Form-->
+      <div class="logoutForm">
+
+        <a href="#">
+          <img id="gearIcon" src="images/gear.png" height="15">
+          Logged in as USER@email.org
+        </a>
+        <div class="logoutForm-sub">
+          <button class="btn btn-primary" type="button">Log Out</button>
+        </div>
+      </div>
+      
+    </div>
+
+    <div class="container-2">
+
+      <div class="detailsForm">
+
+        <form data-dashlane-rid="f9001d55af6358b7" data-form-type="other">
+
+          <div class="input-group mb-3">
+            <input type="text" id="disabledTextInput" class="form-control" name="type-1"
+              placeholder="This is a task claimed by someone else" aria-label="This is a task claimed by someone else">
+          </div>
+
+          <div class="input-group mb-3">
+            <input type="text" id="disabledTextInput" class="form-control" name="type-2"
+              placeholder="This is a task claimed and complete by someone else" aria-label="This is a task claimed and complete by someone else"> 
+          </div>
+
+          <div class="input-group mb-3">
+            <div class="input-group-text mb-3">
+              <input class="form-check-input mt-0" type="checkbox" value=""
+                aria-label="Checkbox for following text input" data-dashlane-rid="229f5e33b0638d29">
+            </div>
+
+            <input type="text" id="disabledTextInput" class="form-control" name="type-1"
+              placeholder="This is a task claimed by me" aria-label="This is a task claimed by someone"
+              aria-describedby="button-addon2" data-dashlane-rid="80270f74b82526b9" data-form-type="other">
+
+            <button class="btn btn-outline-secondary" type="button" id="button-addon2" data-dashlane-label="true"
+              data-dashlane-rid="b7daaa6fb5ee7921" data-form-type="other">Abandon</button>
+          </div>
+
+          <div class="input-group mb-3">
+            <div class="input-group-text">
+              <input class="form-check-input mt-0" type="checkbox" value="" aria-label="Checkbox for following text input" data-dashlane-rid="229f5e33b0638d29" checked>
+            </div>
+            <input type="text" name="type-2" class="form-control" aria-label="This is a task claimed and completed by me" placeholder="This is a task claimed and completed by me" data-dashlane-rid="7838a907f5036efd" >
+          </div>
+
+          <div class="input-group mb-3">
+            <input type="text" id="disabledTextInput" class="form-control" name="type-1"
+              placeholder="This is an unclaimed task" aria-label="This is an unclaimed task"
+              aria-describedby="button-addon2" data-dashlane-rid="80270f74b82526b9" data-form-type="other">
+
+            <button class="btn btn-outline-secondary" type="button" id="button-addon2" data-dashlane-label="true"
+              data-dashlane-rid="b7daaa6fb5ee7921" data-form-type="other">Claim</button>
+          </div>
+
+          <div class="input-group mb-3">
+            <input type="text" id="disabledTextInput" class="form-control" name="type-3"
+              placeholder="Enter a new task" aria-label="Enter a new task"
+              aria-describedby="button-addon2" data-dashlane-rid="80270f74b82526b9" data-form-type="other">
+
+            <button class="btn btn-outline-secondary" type="button" id="button-addon2" data-dashlane-label="true"
+              data-dashlane-rid="b7daaa6fb5ee7921" data-form-type="other">Add</button>
+          </div>
+          <button type="button" class="btn btn-outline-secondary">Remove Complete</button>
+
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <!-- <p>Copyright 2023</p> -->
+  </footer>
+</body>
+
+</html>
